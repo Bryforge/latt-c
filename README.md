@@ -31,3 +31,7 @@ Idea:
 
 gcc -std=c11 -Wall -Wextra -O2 latt-c.c -o latt-c
 ./latt-c 3
+
+:: compile and run latt-c-2 ::
+
+gcc -std=c11 -Wall -Wextra -O2 latt-c-2.c -o latt-c-2 $(sdl2-config --cflags --libs) -lm
