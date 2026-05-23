@@ -26,3 +26,7 @@ Idea:
          The r == c branch receives an added +C, marking a Nash-like self-consistent
          diagonal preference inside the lattice. The full diagonal across recursive
          layers is the ascension trace.
+
+# compile and run
+gcc -std=c11 -Wall -Wextra -O2 latt-c.c -o latt-c
+./latt-c 3
