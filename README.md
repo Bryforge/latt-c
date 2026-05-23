@@ -27,6 +27,7 @@ Idea:
          diagonal preference inside the lattice. The full diagonal across recursive
          layers is the ascension trace.
 
-:: compile and run
+:: compile and run ::
+
 gcc -std=c11 -Wall -Wextra -O2 latt-c.c -o latt-c
 ./latt-c 3
